@@ -1,6 +1,6 @@
 {
   "name": "@waxio/waxjs",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "Javascript API for integration with the WAX Cloud Wallet.",
   "scripts": {
     "build": "tsc",
@@ -25,7 +25,6 @@
     "@types/node": "^12.7.5",
     "chai": "^4.2.0",
     "mocha": "^6.2.0",
-    "node-fetch": "^2.6.1",
     "prettier": "^1.18.2",
     "ts-loader": "^6.1.0",
     "ts-node": "^8.4.1",
@@ -38,7 +37,9 @@
     "serve": "^11.1.0"
   },
   "dependencies": {
-    "eosjs": "^21.0.3"
+    "axios": "^0.21.1",
+    "eosjs": "^21.0.3",
+    "node-fetch": "^2.6.1"
   },
   "files": [
     "dist"
