@@ -25,6 +25,7 @@
     "@types/node": "^12.7.5",
     "chai": "^4.2.0",
     "mocha": "^6.2.0",
+    "node-fetch": "^2.6.1",
     "prettier": "^1.18.2",
     "ts-loader": "^6.1.0",
     "ts-node": "^8.4.1",
@@ -37,7 +38,7 @@
     "serve": "^11.1.0"
   },
   "dependencies": {
-    "eosjs": "^20.0.0"
+    "eosjs": "^21.0.3"
   },
   "files": [
     "dist"
